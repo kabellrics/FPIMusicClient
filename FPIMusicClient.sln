@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPIMusicClient", "FPIMusicClient\FPIMusicClient.csproj", "{26F07270-C8CB-455F-BAD8-0C5891EDF23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPIMusicClient.Core", "FPIMusicClient.Core\FPIMusicClient.Core.csproj", "{48EFDDD3-CB3A-403B-BAB8-4C897F12387F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F07270-C8CB-455F-BAD8-0C5891EDF23B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{48EFDDD3-CB3A-403B-BAB8-4C897F12387F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EFDDD3-CB3A-403B-BAB8-4C897F12387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EFDDD3-CB3A-403B-BAB8-4C897F12387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EFDDD3-CB3A-403B-BAB8-4C897F12387F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA557CD2-3903-4BC7-937B-8297B4021E0E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FPIMusicClient.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:FPIMusicClient.Views"
+    xmlns:local="clr-namespace:FPIMusicClient">
+
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Main"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="HomeMediatheque"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:HomeMediathequePage}"
+        Route="HomeMediathequePage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="HomeCompilation"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:HomeCompilationPage}"
+        Route="HomeCompilationPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="HomeDeezer"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:HomeDeezerPage}"
+        Route="HomeDeezerPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Settings"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:SettingsPage}"
+        Route="SettingsPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailMediaArt"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailMediaArtPage}"
+        Route="ListDetailMediaArtPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailMediaAlb"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailMediaAlbPage}"
+        Route="ListDetailMediaAlbPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailCompilArt"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailCompilArtPage}"
+        Route="ListDetailCompilArtPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailCompilAlb"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailCompilAlbPage}"
+        Route="ListDetailCompilAlbPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailDeezerAlb"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailDeezerAlbPage}"
+        Route="ListDetailDeezerAlbPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailDeezerArt"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailDeezerArtPage}"
+        Route="ListDetailDeezerArtPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="ListDetailDeezerPlaylist"
+        Icon="iconlistdetail.png"
+        ContentTemplate="{DataTemplate views:ListDetailDeezerPlaylistPage}"
+        Route="ListDetailDeezerPlaylistPage" />
+    <ShellContent
+        Shell.NavBarIsVisible="true"
+        Title="Player"
+        Icon="iconblank.png"
+        ContentTemplate="{DataTemplate views:PlayerPage}"
+        Route="PlayerPage" />
+</Shell>

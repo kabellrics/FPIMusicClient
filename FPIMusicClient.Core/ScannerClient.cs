@@ -1,5 +1,4 @@
 using FPIMusicClient.Core.ModelDTO;
-using System = global::System;
 
 namespace FPIMusicClient.Core
 {

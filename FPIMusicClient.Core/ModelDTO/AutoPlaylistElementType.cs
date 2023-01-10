@@ -1,4 +1,3 @@
-using System = System;
 
 namespace FPIMusicClient.Core.ModelDTO
 {
